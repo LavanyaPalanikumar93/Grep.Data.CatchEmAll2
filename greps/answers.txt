@@ -1,17 +1,64 @@
 # Part 1
 ### a)
-
-
-
+ grep -p "bulb" filescan_00.1
+ grep -p "beed" filescan_00.1
+grep -p "blas" filescan_00.1
+grep -p "butt" filescan_00.1
+grep -p "izard" filescan_00.2
+grep -p "mander" filescan_00.2
+grep -p "meleon" filescan_00.2
+grep -p "ivys" filescan_00.3
+grep -p "jigg" filescan_00.3
+grep -p "meow" filescan_00.3
+grep -p "pika" filescan_00.3
+grep -p "psyd" filescan_00.4
+grep -p "squi" filescan_00.4
+grep -p "venu" filescan_00.4
+grep -p "wart" filescan_00.4
 
 ### b)
 
-
+grep -p "bulb" filescan_00.1/Users/lavanya/Projects/Grep.Data.CatchEmAll2/captured/bulbasaur.txt
+ grep -p "beed" filescan_00.1/Users/lavanya/Projects/Grep.Data.CatchEmAll2/captured/beedrill.txt
+grep -p "blas" filescan_00.1/Users/lavanya/Projects/Grep.Data.CatchEmAll2/captured/blastoise.txt
+grep -p "butt" filescan_00.1/Users/lavanya/Projects/Grep.Data.CatchEmAll2/captured/butterfree.txt
+grep -p "izard" filescan_00.2/Users/lavanya/Projects/Grep.Data.CatchEmAll2/captured/charizard.txt
+grep -p "mander" filescan_00.2/Users/lavanya/Projects/Grep.Data.CatchEmAll2/captured/charmander.txt
+grep -p "meleon" filescan_00.2/Users/lavanya/Projects/Grep.Data.CatchEmAll2/captured/charmelon.txt
+grep -p "ivys" filescan_00.3/Users/lavanya/Projects/Grep.Data.CatchEmAll2/captured/ivysaur.txt
+grep -p "jigg" filescan_00.3/Users/lavanya/Projects/Grep.Data.CatchEmAll2/captured/jigglypuff.txt
+grep -p "meow" filescan_00.3/Users/lavanya/Projects/Grep.Data.CatchEmAll2/captured/meowth.txt
+grep -p "pika" filescan_00.3/Users/lavanya/Projects/Grep.Data.CatchEmAll2/captured/pikachu.txt
+grep -p "psyd" filescan_00.4/Users/lavanya/Projects/Grep.Data.CatchEmAll2/captured/psyduck.txt
+grep -p "squi" filescan_00.4/Users/lavanya/Projects/Grep.Data.CatchEmAll2/captured/squirtle.txt
+grep -p "venu" filescan_00.4/Users/lavanya/Projects/Grep.Data.CatchEmAll2/captured/venusaur.txt
+grep -p "wart" filescan_00.4/Users/lavanya/Projects/Grep.Data.CatchEmAll2/captured/wartortle.txt
 
 ### c)
+filescan_00.1
+beedrill.txt
+blastoise.txt
+bulbasaur.txt
+butterfree
+
+filescan_00.2
+charizard.txt
+charmander.txt
+charmelon.txt
+charmander.txt
 
 
+filescan_00.3
+ivysaur.txt
+jigglepuff.txt
+meowth.txt
+pikachu.txt
 
+filescan_00.4
+psyduck.txt
+squirtle.txt
+venasaur.txt
+wartortle.txt
 
 
 
@@ -24,15 +71,16 @@
 
 # Part 2
 ### a)
-
-
+find . -name '*.txt' | wc -l
 
 
 
 
 ### b)
-
-
+pikachu
+beedrill
+charizard
+ wc -l filename.txt
 
 
 
